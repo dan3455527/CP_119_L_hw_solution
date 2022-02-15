@@ -9,6 +9,13 @@ int main(void)
     printf("Please enter the second integer B:");
     scanf("%d", &B);
 
+    printf("%d + %d = %d\n", A, B, A + B);
+    printf("%d - %d = %d\n", A, B, A - B);
+    printf("%d * %d = %d\n", A, B, A * B);
+
+    if (B != 0)
+        printf("%d / %d = %d, with %d as the remainder\n", A, B, A / B, A % B);
+
     system("pause");
     return 0;
 }
