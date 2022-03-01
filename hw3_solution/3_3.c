@@ -11,7 +11,7 @@ int main(void)
         for (j = 1; j <= x; j++)
         { // count from 1 to x
             if (j == i)
-                printf("%c", '0'); // output 0
+                printf("%c", '@'); // output 0
             else
                 printf("  ");
         } // end inner for
