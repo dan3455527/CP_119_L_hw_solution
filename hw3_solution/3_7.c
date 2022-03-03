@@ -1,6 +1,7 @@
-# include <stdio.h>
+#include <stdio.h>
 
-int main(){
+int main(void)
+{
     float pi, dominator, sum_odd = 0, sum_even = 0;
     int odd_count, even_count, terms;
     printf("enter the terms to calculate:\n");
@@ -11,13 +12,15 @@ int main(){
 
     // odd element
     dominator = 1;
-    for (int count = 0; count < odd_count; count ++){
-        sum_odd = sum_odd + (4 / dominator); 
+    for (int count = 0; count < odd_count; count++)
+    {
+        sum_odd = sum_odd + (4 / dominator);
         dominator += 4;
     }
     // even element
     dominator = 3;
-    for (int count = 0; count < even_count; count ++){
+    for (int count = 0; count < even_count; count++)
+    {
         sum_even = sum_even - (4 / dominator);
         dominator += 4;
     }
