@@ -8,6 +8,4 @@ int main(void)
         product *= x;
         ++x;
     }
-
-    return 0;
 }

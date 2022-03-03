@@ -12,6 +12,4 @@ int main(void)
     }
     // for test
     printf("%d", total);
-
-    return 0;
 }

@@ -19,5 +19,4 @@ int main(void)
         printf("the largest number so far is: %d\n", largest);
         count++;
     }
-    return 0;
 }
