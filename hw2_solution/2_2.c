@@ -1,15 +1,18 @@
-# include <stdio.h>
+#include <stdio.h>
 
 unsigned int number;
 int count, largest;
 
-int main(){
+int main(void)
+{
     largest = 0;
     count = 1;
-    while (count<=10){
+    while (count <= 10)
+    {
         printf("input the number\n");
         scanf("%d", &number);
-        if (number > largest){
+        if (number > largest)
+        {
             largest = number;
         }
         printf("the count of the number is %d\n", count);

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -13,6 +12,6 @@ int main(void)
     }
     // for test
     printf("%d", total);
-    system("pause");
+
     return 0;
 }

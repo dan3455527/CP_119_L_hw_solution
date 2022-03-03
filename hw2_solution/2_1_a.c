@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -12,6 +11,5 @@ int main(void)
     else
         puts("Sales are less than $5000"); // lacking semi-comma
 
-    system("pause");
     return 0;
 }

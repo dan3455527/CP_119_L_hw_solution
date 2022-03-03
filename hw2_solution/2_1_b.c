@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -9,6 +8,6 @@ int main(void)
         product *= x;
         ++x;
     }
-    system("pause");
+
     return 0;
 }

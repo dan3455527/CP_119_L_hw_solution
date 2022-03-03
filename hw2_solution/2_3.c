@@ -1,12 +1,14 @@
-# include <stdio.h>
+#include <stdio.h>
 
-int main(){
+int main(void)
+{
     int count;
     int n1, n2, n3, n4;
     count = 1;
 
-    while (count <= 10){
-        
+    while (count <= 10)
+    {
+
         n1 = count;
         n2 = count * count;
         n3 = count * count * count;
