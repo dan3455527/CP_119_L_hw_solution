@@ -43,6 +43,4 @@ int main(void)
         else
             printf("The smallest is %d\n", b);
     }
-
-    return 0;
 }

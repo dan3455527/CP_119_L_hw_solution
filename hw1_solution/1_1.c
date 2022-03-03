@@ -5,6 +5,4 @@ int main(void)
     printf("-------------\n");
     printf("Good morning!\n");
     printf("-------------\n");
-
-    return 0;
 }

@@ -14,6 +14,4 @@ int main(void)
 
     if (B != 0)
         printf("%d / %d = %d, with %d as the remainder\n", A, B, A / B, A % B);
-
-    return 0;
 }
