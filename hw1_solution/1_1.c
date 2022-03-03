@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -7,6 +6,5 @@ int main(void)
     printf("Good morning!\n");
     printf("-------------\n");
 
-    system("pause");
     return 0;
 }

@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -16,6 +15,5 @@ int main(void)
     if (B != 0)
         printf("%d / %d = %d, with %d as the remainder\n", A, B, A / B, A % B);
 
-    system("pause");
     return 0;
 }

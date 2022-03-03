@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 int main(void)
 {
@@ -45,6 +44,5 @@ int main(void)
             printf("The smallest is %d\n", b);
     }
 
-    system("pause");
     return 0;
 }
