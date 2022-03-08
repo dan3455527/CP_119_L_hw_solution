@@ -3,7 +3,7 @@
 int main(void)
 {
     double y = 123.45678;
-    int x;
+    double x;
     x = y;
-    printf("%f\n", (double)x);
+    printf("%f\n", x);
 }
