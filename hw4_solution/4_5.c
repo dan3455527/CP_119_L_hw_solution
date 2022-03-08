@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 void lcm(int a, int b);
@@ -29,4 +30,4 @@ void lcm(int a, int b)
                 continue;
         }
     }
-}
+
