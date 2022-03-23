@@ -5,33 +5,25 @@ int main(void)
 {
     char s[SIZE];
     char temp[SIZE];
-    int done = 0;
     size_t idx = 0;
     size_t i;
     int count = 0;
-    while (!done)
+
+    for (count = 0; count < 5; count++)
     {
-        count++;
         printf("(index = %zu) Enter a word:", idx);
         scanf("%119s", temp);
-        if (count == 5)
+        if (idx != 0 && idx < SIZE - 1)
         {
-            done = 1;
+            s[idx] = ' ';
+            idx++;
         }
-        else
+        for (i = 0; i < SIZE && temp[i] != '\0' && i + idx < SIZE - 1; i++)
         {
-            if (idx != 0 && idx < SIZE - 1)
-            {
-                s[idx] = ' ';
-                idx++;
-            }
-            for (i = 0; i < SIZE && temp[i] != '\0' && i + idx < SIZE - 1; i++)
-            {
-                s[idx + i] = temp[i];
-            }
-            idx += i;
+            s[idx + i] = temp[i];
         }
-        }
+        idx += i;
+    }
     if (idx < SIZE)
     {
         s[idx] = '\0';
