@@ -5,20 +5,17 @@
 void get_new_point();
 
 int main(){
-    get_new_point();
+    int x, y, z;
+    get_new_point(&x, &y, &z);
+    printf("x = %d, y = %d, z = %d", x, y, z);
 }
 
-void get_new_point(){
+void get_new_point(int *x, int *y, int *z){
     srand(time(NULL));
     int min = -10;
     int max = 10;
-    // int coord[3];
 
-    // for (int i = 0; i < 3; i++){
-    //     coord[i] = rand() % (max - min + 1) + min;
-    // }
-    int x = rand() % (max - min + 1) + min;
-    int y = rand() % (max - min + 1) + min;
-    int z = rand() % (max - min + 1) + min;
-    printf("x: %d, y: %d, z: %d", x, y, z);
+    *x = rand() % (max - min + 1) + min;
+    *y = rand() % (max - min + 1) + min;
+    *z = rand() % (max - min + 1) + min;
 }
