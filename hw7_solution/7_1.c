@@ -7,9 +7,9 @@ int main(void)
 
     double *dPtr;                           //(a)
     dPtr = &value1;                         //(b)
-    printf("dPtr:%f\n", *dPtr);             //(c)
+    printf("dPtr:%.4f\n", *dPtr);           //(c)
     value2 = *dPtr;                         //(d)
-    printf("value2:%f\n", value2);          //(e)
+    printf("value2:%.4f\n", value2);        //(e)
     printf("value1 address:%p\n", &value1); //(f)
     printf("dPtr address:%p\n", dPtr);      //(g)
     printf("Is the dPtr printed the same as value1’s address? ");
